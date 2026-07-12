@@ -41,6 +41,10 @@ apis:
       - type: x-api-endpoint
         url: https://datenregister.berlin.de/api/3/action/package_search?rows=0
 common:
+  - type: VulnerabilityDisclosure
+    url: security/datenregister-berlin-de-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/datenregister-berlin-de-domain-security.yml
   - type: Website
     url: https://datenregister.berlin.de
   - type: Documentation
